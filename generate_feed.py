@@ -3,17 +3,17 @@ import os
 
 # Create the feed generator
 fg = FeedGenerator()
-fg.id('https://<username>.github.io/my-feed')
+fg.id('https://aaadiwijaya.github.io/my-feed')
 fg.title('My GitHub Feed')
 fg.author({'name': 'Your Name', 'email': 'your-email@example.com'})
-fg.link(href='https://<username>.github.io/my-feed', rel='self')
+fg.link(href='https://aaadiwijaya.github.io/my-feed', rel='self')
 fg.language('en')
 
 # Add feed entries (replace this with your actual feed content)
 entry = fg.add_entry()
-entry.id('https://<username>.github.io/my-feed/posts/post1')
+entry.id('https://aaadiwijaya.github.io/my-feed/posts/post1')
 entry.title('First Post')
-entry.link(href='https://<username>.github.io/my-feed/posts/post1')
+entry.link(href='https://aaadiwijaya.github.io/my-feed/posts/post1')
 entry.description('This is the description of the first post')
 
 # Write the feed to an XML file
